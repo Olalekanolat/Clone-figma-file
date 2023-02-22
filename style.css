@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@600;700&family=Manrope:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 20px 50px;
+}
+nav a {
+    margin: 50px;
+    color:#000000
+}
+
+.a_three {
+    margin: 50px;
+    color: blue;
+    border-style: solid;
+}
+
+body {
+    color: #F5F8FE;
+}
+
+.section_one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px;
+    background-color: black;
+    align-items: center;
+}
+
+.section_two {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #F5F8FE;
+}
+
+.header_one {
+    display: flex;
+    align-items: center;
+}
+
+.one {
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 32px;
+    color: #B8B8B8;
+}
+
+.two {
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.three {
+    font-size: 32px;
+    font-family: 'Manrope';
+    color: #B8B8B8;
+    text-align: justify;
+    width: 70%;
+}
+
+.img_one {
+    margin-top: 56px;
+
+}
+
+h1 {
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 50px;
+
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.second_p {
+    color: black;
+    font-size: 32px;
+    font-family: 'Manrope';
+
+}
