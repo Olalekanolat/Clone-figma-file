@@ -57,9 +57,11 @@ body {
 .section_one {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     padding: 0 250px;
     background-color: black;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .section_one a {
@@ -133,6 +135,7 @@ a {
     text-align: justify;
     width: 70%;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 
 .section_b .a_one {
@@ -183,9 +186,8 @@ footer {
 }
 
 .footer_two {
-
-    /* display: flex; */
-    align-items: space-between;
+    display: flex;
+    gap: 30px;
 }
 
 .footer_three {
