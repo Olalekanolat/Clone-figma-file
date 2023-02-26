@@ -57,16 +57,25 @@ nav a {
 .section_one {
     display: flex;
     justify-content: space-between;
-    padding: 16px 120px;
+    padding: 56px 120px 0;
     background-color: black;
     align-items: center;
+    width: 100%;
+    /* gap: 70px; */
 }
 
+.first_p {
+    width: 55%;
+}
+
+.one_img {
+    width: 40%;
+}
 .section_one a {
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 18px;
-    padding: 20px;
+    padding: 10px;
     color: #FFFFFF;
     background: #155EEF;
     border-radius: 8px;
@@ -104,12 +113,7 @@ nav a {
     font-family: 'Manrope';
     color: #B8B8B8;
     text-align: justify;
-    margin-bottom: 30px;
-}
-
-.img_one {
-    margin-top: 56px;
-
+    margin-bottom: 26px;
 }
 
 h1 {
