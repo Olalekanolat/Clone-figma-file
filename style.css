@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0 250px;
+    padding: 16px 120px;
     background-color: black;
     align-items: center;
     margin-bottom: 50px;
@@ -77,7 +77,7 @@ body {
 .section_two {
     display: flex;
     justify-content: space-between;
-    padding: 50px 250px;
+    padding: 16px 120px;
     background-color: #F5F8FE;
     width: 100%;
     gap: 150px;
