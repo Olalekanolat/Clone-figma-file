@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #F5F8FE;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
-    padding: 20px 50px;
+    padding: 16px 120px;
 }
 
 .header_one {
@@ -30,38 +34,32 @@ nav a {
     margin: 50px;
     color: #000000;
     font-family: 'Halant';
-    font-size: 32px;
+    font-weight: 500;
+    font-size: 24px;
 
 }
 
 .a_one {
-    text-decoration: underline 3px solid #155EEF;
-    /* border-bottom: 4px solid #155EEF;
-    padding: 0 10px; */
+    text-decoration: underline 1px solid #155EEF;
+    /* border-bottom: 1px solid #155EEF; */
+    /* padding-bottom: 10px; */
 }
 
 .a_three {
-    margin: 50px;
     color: #155EEF;
     border: 1px solid #155EEF;
     border-radius: 8px;
-    padding: 10px 20px;
+    padding: 10px 16px;
     font-family: 'Manrope';
     font-size: 24px;
-}
-
-body {
-    color: #F5F8FE;
 }
 
 .section_one {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     padding: 16px 120px;
     background-color: black;
     align-items: center;
-    margin-bottom: 50px;
 }
 
 .section_one a {
@@ -77,10 +75,9 @@ body {
 .section_two {
     display: flex;
     justify-content: space-between;
-    padding: 16px 120px;
+    padding: 64px 120px;
     background-color: #F5F8FE;
-    width: 100%;
-    gap: 150px;
+    gap: 157px;
 }
 
 .section_two a .header_one {
@@ -107,7 +104,6 @@ body {
     font-family: 'Manrope';
     color: #B8B8B8;
     text-align: justify;
-    width: 55%;
     margin-bottom: 30px;
 }
 
@@ -133,7 +129,6 @@ a {
     font-family: 'Manrope';
     color: black;
     text-align: justify;
-    width: 70%;
     padding: 10px 20px;
     margin-bottom: 50px;
 }
@@ -164,7 +159,6 @@ a {
 footer {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     align-items: center;
     padding: 20px 50px;
     background-color: #080808;
