@@ -18,20 +18,14 @@ header {
     padding: 16px 120px;
 }
 
-.header_one {
+nav {
     display: flex;
+    gap: 103px;
     align-items: center;
 }
 
-.header_one a {
-    font-family: 'Manrope';
-    font-weight: 700;
-    font-size: 33.28px;
-    color: #155EEF;
-}
-
 nav a {
-    margin: 50px;
+    /* margin: 50px; */
     color: #000000;
     font-family: 'Halant';
     font-weight: 500;
@@ -41,7 +35,7 @@ nav a {
 
 .a_one {
     border-bottom: 1px solid #155EEF;
-    padding: 0 8px;
+    /* padding: 0 8px; */
 }
 
 .a_three {
@@ -62,7 +56,7 @@ nav a {
 }
 
 .first_p {
-    width: 54%;
+    /* width: 54%; */
 }
 
 .one {
@@ -88,18 +82,18 @@ nav a {
 }
 
 .section_one .img {
-    width: 40%;
+    /* width: 40%; */
 }
 
 .img_one {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .section_one a {
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 18px;
-    padding: 10px;
+    padding: 10px 16px;
     color: #FFFFFF;
     background: #155EEF;
     border-radius: 8px;
@@ -109,21 +103,21 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 120px;
-    height: 70vh;
+    padding: 64px 120px;
+    gap: 157px;
     background-color: #F5F8FE;
 }
 
 .section_two .img {
-    width: 40%;
+    /* width: 40%; */
 }
 
 .img_two {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .detail {
-    width: 52%;
+    /* width: 52%; */
 }
 
 h1 {
@@ -131,7 +125,7 @@ h1 {
     font-weight: 600;
     font-size: 32px;
     color: #000000;
-    margin-left: 20px;
+    margin-bottom: 18px;
 }
 
 a {
@@ -143,54 +137,44 @@ a {
     font-family: 'Manrope';
     color: black;
     text-align: justify;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+    /* padding: 10px 20px; */
+    margin-bottom: 42px;
+}
+
+.section_b {
+    display: flex;
+    gap: 16px;
 }
 
 .section_b .a_one {
-    margin-left: 20px;
-    border: 1px solid;
+    /* margin-left: 20px; */
+    /* border: 1px solid; */
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 18px;
-    padding: 10px 50px;
+    font-size: 16px;
+    padding: 10px 49px;
     color: #FFFFFF;
     background: #155EEF;
     border-radius: 8px;
 }
 
 .section_b .a_two {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border: 1px solid;
     font-family: 'Manrope';
     font-weight: 700;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 10px 16px;
     color: #155EEF;
     border-radius: 8px;
 }
 
-footer {
+.footer_desktop {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 16px 120px;
     background-color: #080808;
-}
-
-.footer_one {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Manrope';
-    font-weight: 700;
-    font-size: 32px;
-}
-
-.footer_one p {
-    font-size: 33.28px;
-    font-family: 'Manrope';
-    font-weight: 700;
 }
 
 .footer_two {
@@ -204,3 +188,98 @@ footer {
     font-size: 24px;
     color: #FFFFFF;
 }
+
+.icon {
+    display: none;
+}
+
+.footer_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+   
+    nav {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    header {
+        display: flex;
+        padding: 0 10px;
+    }
+
+    .section_one {
+        flex-direction: column-reverse;
+        padding: 24px 8px 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center ;
+        }
+
+    .one {
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        }
+
+    .two {
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        }
+
+    .three {
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+        }
+
+    .section_one a {
+        justify-content: center;
+        align-items: center;
+        padding: 10px 100px;
+        width: 90%;
+    }
+       
+    .section_two {
+        flex-direction: column;
+        padding: 16px 24px 39px;
+    }
+
+    .section_two .img {
+        display:none
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .second_p {
+        font-size: 16px;
+        margin-bottom: 16px
+    }
+
+    .footer_desktop {
+        display: none;
+    }
+
+    .footer_mobile {
+        background-color: #080808
+    }
+
+    .ft_one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #080808
+        /* gap: 55px;     */
+    }
+
+}
+
