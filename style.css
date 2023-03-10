@@ -8,6 +8,7 @@
 
 body {
     color: #F5F8FE;
+    max-width: 1512px;
     width: 100%;
 }
 
@@ -56,6 +57,10 @@ nav a {
     align-items: center;
 }
 
+.img_one {
+    display: block;
+}
+
 .first_p {
     /* width: 54%; */
 }
@@ -82,7 +87,7 @@ nav a {
     margin-bottom: 26px;
 }
 
-.section_one .img {
+.image_div {
     /* width: 40%; */
 }
 
@@ -109,8 +114,8 @@ nav a {
     background-color: #F5F8FE;
 }
 
-.section_two .img {
-    /* width: 40%; */
+.colored_img {
+    /* width: 45%; */
 }
 
 .img_two {
@@ -170,6 +175,81 @@ a {
     border-radius: 8px;
 }
 
+.section_three {
+    display: flex;
+    background-color: #E6E6E6;
+    padding: 64px 120px 183px;
+    position: relative;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+.recommend_image {
+    width: 53%;
+}
+
+.image_three {
+    width: 100%;
+}
+
+.recommend_div {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 47%;
+    background-color: #FFFFFF;
+    padding: 54px 40px;
+    position: absolute;
+    left: 42%;
+    top: 30%;
+}
+
+h2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    color: #141414;
+    /* margin-bottom: 8px; */
+}
+
+.p_recommend {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #141414;
+    /* margin-bottom: 8px; */
+}
+
+.name_two {
+    display: flex;
+}
+
+.name {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+}
+
+.senior {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #525252;
+}
+
 .footer_desktop {
     display: flex;
     justify-content: space-between;
@@ -203,8 +283,13 @@ a {
 }
 
 
+
 @media screen and (max-width: 768px) {
-   
+
+    body {
+        /* width: 100%; */
+    }
+
     nav {
         display: none;
     }
@@ -219,7 +304,7 @@ a {
     }
 
     header .image {
-        display: none;        
+        display: none;
     }
 
     .header_logo {
@@ -231,31 +316,35 @@ a {
         padding: 24px 8px 16px;
         align-items: center;
         justify-content: center;
-        text-align: center ;
+        text-align: center;
         width: 100%;
-        }
+    }
 
-        .section_one img {
+    .image_div {
         width: 100%;
-        }
+    }
+
+    .img_one {
+        width:
+    }
 
     .one {
         font-size: 16px;
         text-align: center;
         align-items: center;
-        }
+    }
 
     .two {
         font-size: 24px;
         text-align: center;
         align-items: center;
-        }
+    }
 
     .three {
         font-size: 16px;
         text-align: center;
         align-items: center;
-        }
+    }
 
     .section_one a {
         justify-content: center;
@@ -263,15 +352,16 @@ a {
         padding: 10px 100px;
         width: 90%;
     }
-       
+
     .section_two {
         flex-direction: column;
         padding: 16px 24px 39px;
         width: 100%;
+        margin-bottom: 16px;
     }
 
-    .section_two .img {
-        display:none
+    .colored_img {
+        display: none
     }
 
     h1 {
@@ -283,6 +373,70 @@ a {
     .second_p {
         font-size: 16px;
         margin-bottom: 16px
+    }
+
+    
+    .section_three {
+        align-items: center;
+        justify-content: center;
+        /* position: relative; */
+        width: 100%;
+    }
+
+    .recommend_div {
+        padding: 16px 24px;
+        color: #141414;
+        background-color: #E6E6E6;
+        padding: 16px 24px;
+        /* margin: 16px; */
+        width: 100%;
+        position: relative;
+    }
+
+    h2 {
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #141414;
+        margin-bottom: 8px;
+    }
+
+    .recommend_image {
+        display: none;
+    }
+
+    .p_recommend {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #141414;
+        margin-bottom: 8px;
+    }
+
+    .name {
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
+    }
+
+    .senior {
+        font-family: 'Halant';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        color: #525252;
     }
 
     .footer_desktop {
@@ -313,11 +467,10 @@ a {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
-        font-size: 15.98px;
+        font-size: 15.98 px;
         letter-spacing: 0.5px;
         color: #FFFFFF;
         margin-top: 16px;
     }
 
 }
-
