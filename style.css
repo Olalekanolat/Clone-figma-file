@@ -56,6 +56,10 @@ nav a {
     align-items: center;
 }
 
+.mobile-dp{
+    display: none;
+}
+
 .first_p {
     /* width: 54%; */
 }
@@ -203,10 +207,22 @@ a {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 450px) {
+
+    body {
+        color: #F5F8FE;
+        width: 100%;
+    }
    
+
     nav {
         display: none;
+    }
+
+    /* added a width to the body */
+    body{
+        background-color: #000000;
+        width: 100%;
     }
 
     .icon {
@@ -216,6 +232,7 @@ a {
     header {
         display: flex;
         padding: 0 10px;
+        background-color: #FFFFFF;
     }
 
     header .image {
@@ -227,16 +244,21 @@ a {
     }
 
     .section_one {
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column;
         padding: 24px 8px 16px;
         align-items: center;
         justify-content: center;
         text-align: center ;
         width: 100%;
-        }
+    }
 
-        .section_one img {
-        width: 100%;
+    .mobile-dp{
+        display: block;
+    }
+
+        .img {
+            display: none;
         }
 
     .one {
@@ -257,17 +279,29 @@ a {
         align-items: center;
         }
 
+    .first_p {
+            margin: 16px 8px;
+        }
+
     .section_one a {
         justify-content: center;
         align-items: center;
         padding: 10px 100px;
         width: 90%;
     }
-       
+    
+    .first_p{
+        margin: 32px 0px;
+    }
+
     .section_two {
         flex-direction: column;
         padding: 16px 24px 39px;
         width: 100%;
+    }
+
+    .section_b{
+        padding: 0% 5%;
     }
 
     .section_two .img {
@@ -278,6 +312,15 @@ a {
         font-size: 24px;
         text-align: center;
         margin-bottom: 8px;
+    }
+
+    /* added padding to center buttons */
+    .section_b{
+        padding: 0% 15% 0 15%;
+        display: flex;
+        width: 100vw;
+        margin: 0 auto;
+        align-items: center;
     }
 
     .second_p {
@@ -293,7 +336,12 @@ a {
         display: block;
         background-color: #080808;
         height: 121.89px;
+<<<<<<< Updated upstream
+        padding: 16px;
+=======
         padding: 16px 8px 16px 8px;
+        margin-top: 16px;
+>>>>>>> Stashed changes
     }
 
     .ft {
@@ -318,6 +366,7 @@ a {
         color: #FFFFFF;
         margin-top: 16px;
     }
+
 
 }
 
