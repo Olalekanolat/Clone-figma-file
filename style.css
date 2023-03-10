@@ -57,17 +57,8 @@ nav a {
     align-items: center;
 }
 
-<<<<<<< HEAD
-.img_one {
-    display: block;
-=======
-.mobile-dp{
-    display: none;
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
-}
-
 .first_p {
-    /* width: 54%; */
+    width: 50%;
 }
 
 .one {
@@ -93,11 +84,12 @@ nav a {
 }
 
 .image_div {
-    /* width: 40%; */
+    width: 40%;
 }
 
 .img_one {
-    /* width: 100%; */
+    width: 100%;
+    display: block;
 }
 
 .section_one a {
@@ -115,20 +107,20 @@ nav a {
     justify-content: space-between;
     align-items: center;
     padding: 64px 120px;
-    gap: 157px;
+    gap: 100px;
     background-color: #F5F8FE;
 }
 
 .colored_img {
-    /* width: 45%; */
+    width: 45%;
 }
 
 .img_two {
-    /* width: 100%; */
+    width: 100%;
 }
 
 .detail {
-    /* width: 100%; */
+    width: 45%;
 }
 
 h1 {
@@ -158,8 +150,6 @@ a {
 }
 
 .a_four {
-    /* margin-left: 20px; */
-    /* border: 1px solid; */
     font-family: 'Manrope';
     font-weight: 700;
     font-size: 16px;
@@ -170,7 +160,6 @@ a {
 }
 
 .a_five {
-    /* margin-left: 20px; */
     border: 1px solid;
     font-family: 'Manrope';
     font-weight: 700;
@@ -228,7 +217,6 @@ h2 {
     text-align: justify;
     letter-spacing: 0.5px;
     color: #141414;
-    /* margin-bottom: 8px; */
 }
 
 .name_two {
@@ -288,32 +276,17 @@ h2 {
 }
 
 
-<<<<<<< HEAD
-
 @media screen and (max-width: 768px) {
 
     body {
-        /* width: 100%; */
-    }
-=======
-@media screen and (max-width: 450px) {
-
-    body {
-        color: #F5F8FE;
-        width: 100%;
-    }
-   
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
-
-    nav {
-        display: none;
-    }
-
-    /* added a width to the body */
-    body{
         background-color: #000000;
         width: 100%;
     }
+   
+    nav {
+        display: none;
+    }
+   
 
     .icon {
         display: block;
@@ -335,7 +308,7 @@ h2 {
 
     .section_one {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;        
         padding: 24px 8px 16px;
         align-items: center;
         justify-content: center;
@@ -343,23 +316,9 @@ h2 {
         width: 100%;
     }
 
-<<<<<<< HEAD
-    .image_div {
-        width: 100%;
-    }
-
-    .img_one {
-        width:
-    }
-=======
-    .mobile-dp{
-        display: block;
-    }
-
-        .img {
+    .colored_img {
             display: none;
         }
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
 
     .one {
         font-size: 16px;
@@ -389,13 +348,10 @@ h2 {
         padding: 10px 100px;
         width: 90%;
     }
-<<<<<<< HEAD
-=======
     
     .first_p{
         margin: 32px 0px;
     }
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
 
     .section_two {
         flex-direction: column;
@@ -404,17 +360,8 @@ h2 {
         margin-bottom: 16px;
     }
 
-<<<<<<< HEAD
-    .colored_img {
-        display: none
-=======
     .section_b{
         padding: 0% 5%;
-    }
-
-    .section_two .img {
-        display:none
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
     }
 
     h1 {
@@ -424,7 +371,7 @@ h2 {
     }
 
     /* added padding to center buttons */
-    .section_b{
+    .section_b {
         padding: 0% 15% 0 15%;
         display: flex;
         width: 100vw;
@@ -509,12 +456,8 @@ h2 {
         display: block;
         background-color: #080808;
         height: 121.89px;
-<<<<<<< Updated upstream
-        padding: 16px;
-=======
         padding: 16px 8px 16px 8px;
         margin-top: 16px;
->>>>>>> Stashed changes
     }
 
     .ft {
@@ -540,10 +483,6 @@ h2 {
         margin-top: 16px;
     }
 
-<<<<<<< HEAD
-}
-=======
 
 }
 
->>>>>>> 6ab5fb1c9bedc583da75e436eae83819700e5e32
