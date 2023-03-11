@@ -26,7 +26,6 @@ nav {
 }
 
 nav a {
-    /* margin: 50px; */
     color: #000000;
     font-family: 'Halant';
     font-weight: 500;
@@ -58,7 +57,7 @@ nav a {
 }
 
 .first_p {
-    width: 50%;
+    width: 52%;
 }
 
 .one {
@@ -120,7 +119,7 @@ nav a {
 }
 
 .detail {
-    width: 45%;
+    width: 50%;
 }
 
 h1 {
@@ -133,7 +132,6 @@ h1 {
 
 a {
     text-decoration: none;
-    white-space: nowrap;
 }
 
 .second_p {
@@ -179,7 +177,7 @@ a {
 }
 
 .recommend_image {
-    width: 53%;
+    width: 50%;
 }
 
 .image_three {
@@ -189,10 +187,10 @@ a {
 .recommend_div {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    width: 47%;
+    gap: 16px;
+    width: 55%;
     background-color: #FFFFFF;
-    padding: 54px 40px;
+    padding: 36px 40px 72px 40px;
     position: absolute;
     left: 42%;
     top: 30%;
@@ -206,7 +204,6 @@ h2 {
     text-align: left;
     letter-spacing: 0.5px;
     color: #141414;
-    /* margin-bottom: 8px; */
 }
 
 .p_recommend {
@@ -297,8 +294,9 @@ h2 {
         padding: 0 10px;
         background-color: #FFFFFF;
     }
+    
 
-    header .image {
+    .logo {
         display: none;
     }
 
@@ -314,6 +312,23 @@ h2 {
         justify-content: center;
         text-align: center;
         width: 100%;
+    }
+
+    .section_one a {
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 30%;
+        color: #FFFFFF;
+        background: #155EEF;
+        border-radius: 8px;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a {
+        white-space: nowrap;
     }
 
     .colored_img {
@@ -339,56 +354,81 @@ h2 {
     }
 
     .first_p {
-            margin: 16px 8px;
-        }
+            padding: 16px 8px;
+            width: 100%;
+    }           
 
-    .section_one a {
-        justify-content: center;
-        align-items: center;
-        padding: 10px 100px;
-        width: 90%;
-    }
-    
-    .first_p{
-        margin: 32px 0px;
-    }
-
+        
     .section_two {
         flex-direction: column;
-        padding: 16px 24px 39px;
+        padding: 16px 16px 39px 16px;
         width: 100%;
-        margin-bottom: 16px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* margin-bottom: 16px; */
     }
 
-    .section_b{
-        padding: 0% 5%;
+    .detail {
+        width: 100%;
+    }
+
+    .second_p {
+        width: 100%;
     }
 
     h1 {
         font-size: 24px;
         text-align: center;
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
     }
 
     /* added padding to center buttons */
     .section_b {
-        padding: 0% 15% 0 15%;
-        display: flex;
-        width: 100vw;
-        margin: 0 auto;
+        /* padding: 0% 15% 0 15%; */
+        /* width: 100%; */
+        /* margin: 0 auto; */
         align-items: center;
+        justify-content: center;
+    }
+
+    .a_four {
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+        /* padding: 10px 49px; */
+        /* width: 50%; */
+        color: #FFFFFF;
+        background: #155EEF;
+        border-radius: 8px;
+    }
+    
+    .a_five {
+        border: 1px solid;
+        font-family: 'Manrope';
+        font-weight: 700;
+        font-size: 16px;
+        /* padding: 10px 16px; */
+        color: #155EEF;
+        border-radius: 8px;
     }
 
     .second_p {
         font-size: 16px;
-        margin-bottom: 16px
+        /* margin-bottom: 16px; */
+        font-family: 'Manrope';
+        color: black;
+        text-align: justify;  
+               
     }
 
-    
     .section_three {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        /* position: relative; */
+        /* justify-content: center; */
+        padding: 16px 8px;
+        position: static;
         width: 100%;
     }
 
@@ -396,10 +436,9 @@ h2 {
         padding: 16px 24px;
         color: #141414;
         background-color: #E6E6E6;
-        padding: 16px 24px;
         /* margin: 16px; */
         width: 100%;
-        position: relative;
+        position: static;
     }
 
     h2 {
@@ -410,7 +449,7 @@ h2 {
         text-align: center;
         letter-spacing: 0.5px;
         color: #141414;
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
     }
 
     .recommend_image {
@@ -425,7 +464,8 @@ h2 {
         text-align: justify;
         letter-spacing: 0.5px;
         color: #141414;
-        margin-bottom: 8px;
+        width: 100%;
+        /* margin-bottom: 8px; */
     }
 
     .name {
