@@ -296,7 +296,7 @@ h2 {
     }
     
 
-    .logo {
+    .justprojects {
         display: none;
     }
 
@@ -311,6 +311,14 @@ h2 {
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: 100%;
+    }
+
+    .image_div {
+        width: 100%;
+    }
+
+    .image_one {
         width: 100%;
     }
 
